@@ -1,0 +1,71 @@
+body {
+    background-color: #363e44;
+}
+  .header-pic{
+    position: relative;
+    margin-top: 550px;
+    margin-left: 120px;
+    border-radius: 50%;
+  }
+  .bg-pic{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    object-fit: cover;
+    margin: 0 auto;
+    width: 200%;
+  }
+  .hieu-hieu{
+    padding:10px;
+    opacity: 0; /* Initially hidden */
+    margin-left:400px;
+  animation: fadeIn 4s ease-in-out forwards;
+  }
+  .chugn{
+    padding: 10px;
+    opacity: 0; /* Initially hidden */
+    margin-left: 400px;
+  animation: fadeIn 6s ease-in-out forwards;
+  }
+  .phuc-beo{
+    padding: 10px;
+    opacity: 0; /* Initially hidden */
+    margin-left: 400px;
+  animation: fadeIn 8s ease-in-out forwards;
+  }
+  .order{
+    color:aliceblue;
+    font-size: 175px;
+    font-family: fantasy;
+    margin-left: 220px;
+    width: 1500px;
+    text-shadow: 5 5 5px rgb(255, 255, 255);
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  h1{
+    padding: 10px;
+    font-size: 40px;
+    font-family: fantasy;
+    margin-left: 400px;
+    color: aliceblue;
+  }
+  .vice{
+    margin: auto;
+  }
+
+ /* Styles for screens between 768px and 1024px wide (tablet) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hieu-hieu {
+    width: 80%; /* Adjust width for tablets */
+  }
+  .chugn {
+    width: 80%; /* Adjust width for tablets */
+  }
+  .phuc-beo {
+    width: 80%; /* Adjust width for tablets */
+  }
+}
